@@ -1,1 +1,1 @@
-# shoutout-generator
+<h1 align="center">Shoutout Generator</h1>
