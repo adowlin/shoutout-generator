@@ -7,6 +7,12 @@ body {
   background-size: cover;
 }
 
+.container-fluid,
+.container,
+.row {
+  margin: 0;
+}
+
 .navbar {
   height: 15vh;
 }
@@ -31,4 +37,16 @@ body {
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   border-radius: 12px;
   border: hidden;
+}
+
+#main-content {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+#generator-section,
+#shoutout-container,
+#shoutout-message {
+  margin: 0;
+  padding: 0;
 }
