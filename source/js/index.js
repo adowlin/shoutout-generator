@@ -29,13 +29,13 @@ var shoutouts = [
     "You’re crushing it &#128588;",
     "Congrats on being an amazing human!",
     "Way to go!",
-    "The work you’re doing makes a positive impact",
+    "The work you’re doing has a positive impact",
     "I’m grateful to know you &#129309;",
     "You’re a great co-worker &#127942;",
     "Show up for yourself!",
     "&#127926; you’re simply the best &#127926;",
     "I’m grateful for your support!",
-    "Your input is &#128079; invaluable &#128079;",
+    "Your input is &#128079; valuable &#128079;",
     "Treat yourself today—you deserve it!",
     "&#127926; you put your thang down, flip it and reverse it &#127926;",
     "&#127926; don’t stop believin’ &#127926;",
@@ -55,14 +55,19 @@ var shoutouts = [
 ];
 
 function randGen() {
-    return Math.floor(Math.random() * 54);
+    return Math.floor(Math.random() * 53);
 }
 
 function generateShoutout() {
     var randNum = randGen();
     var shoutout = shoutouts[randNum];
+    var shoutoutContainer = document.querySelector('.message-wrapper')
 
+    shoutoutContainer.classList.add('slide');
     document.getElementById('shoutoutMessage').innerHTML = shoutout;
+    setTimeout(function(){
+        shoutoutContainer.classList.remove('slide')
+    },100);
 };
 
 // Run functions when the page has loaded.
