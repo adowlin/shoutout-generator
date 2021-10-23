@@ -27,7 +27,7 @@ var shoutouts = [
     "You are important!",
     "Keep going, your hard work will pay off!",
     "You’re crushing it &#128588;",
-    "Congratulations on being an amazing human!",
+    "Congrats on being an amazing human!",
     "Way to go!",
     "The work you’re doing makes a positive impact",
     "I’m grateful to know you &#129309;",

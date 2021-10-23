@@ -91,10 +91,47 @@ body {
 }
 
 #generator-section,
-#shoutout-container,
-#shoutout-message {
+#shoutoutMessage {
   margin: 0;
   padding: 0;
+}
+
+.shoutout-container {
+  height: 50vh;
+}
+
+#shoutoutMessage {
+  font-size: 3rem;
+}
+
+#generateButton {
+  background-color: rgb(76, 201, 240);
+  color: rgb(58, 12, 163);
+  font-size: 3rem;
+  position: relative;
+  opacity: 0.9;
+  top: 0;
+  margin-top: 0;
+  box-shadow: 0 10px 0 0;
+  transition: all .25s ease;
+}
+
+#generateButton:hover {
+  /* background-color: rgb(72, 149, 239); */
+  opacity: 1;
+  transform:scale(1.05);
+}
+
+#generateButton:active {
+  box-shadow: none;
+  top: 10px;
+  margin-bottom: 0;
+  transform:scale(.95);
+}
+
+#generateButton:active,
+#generateButton:focus {
+  outline: 0;
 }
 
 @media only screen and (min-width: 992px) {
