@@ -6,14 +6,14 @@
 }
 
 @font-face {
-  font-family: 'Subjectivity';
-  src: url('fonts/Subjectivity-Regular.woff2') format('woff2');
+  font-family: 'Carlo Melow Sans';
+  src: url('fonts/carlo-melow-sans.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: Subjectivity, serif;
+  font-family: Carlo Melow Sans, sans-serif;
   font-size: 10px;
   background: url(../images/shoutout-gradient.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -65,7 +65,8 @@ body {
 #navigation a,
 #navModal .nav-item, 
 #navModal a {
-  /* color: rgb(76, 201, 240); */
+  font-family: IntroScript, sans-serif;
+  font-weight: 500;
   text-align: left;
   font-size: 2rem;
   text-shadow: 0.03rem 0 black;
@@ -101,10 +102,22 @@ body {
 }
 
 #shoutoutMessage {
-  font-size: 3rem;
+  font-family: Carlo Melow Sans, sans-serif;
+  font-size: 4rem;
+  color: rgb(76, 201, 240);
+  text-shadow:
+        0.08rem 0 black,
+        0 0.08rem black,
+        -0.08rem 0 black,
+        0 -0.08rem black,
+        -0.08rem -0.08rem black,
+        -0.08rem 0.08rem black,
+        0.08rem -0.08rem black,
+        0.08rem 0.08rem black;
 }
 
 #generateButton {
+  font-family: IntroScript, sans-serif;
   background-color: rgb(76, 201, 240);
   color: rgb(58, 12, 163);
   font-size: 3rem;

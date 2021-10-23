@@ -12,7 +12,7 @@ var shoutouts = [
     "I’m proud of you! &#129409;",
     "You are a &#10024; positive influence &#10024;",
     "You’re an awesome teammate!",
-    "Shout out to you for bring a great leader",
+    "Shout out to you for being a great leader",
     "YOU ARE A ROCK STAR",
     "&#127926; Hey now, you’re an all star &#127926;",
     "&#127926; you’ll never know if you don’t go &#127926;",
@@ -49,9 +49,8 @@ var shoutouts = [
     "Be proud of yourself for showing up everyday!",
     "You’re the rainbow in someone else’s cloud &#127752;",
     "Take a break, rest, and recharge—you deserve it",
-    "Shoutout to everyone who still Googles html basics—you’re not alone!",
-    "Shoutout to anyone getting up early—your motivation is inspiring!",
-    "Shoutout to anyone getting up just a few mins before work—your timing is impeccable!",
+    "Shoutout to everyone who still Googles HTML basics!",
+    "Shoutout to everyone getting up early!",
     "Shoutout to everyone making shoutout generators!",
 ];
 
