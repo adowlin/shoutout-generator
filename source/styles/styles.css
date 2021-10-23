@@ -1,6 +1,7 @@
 /* Fonts */
 
 @font-face {
+  /* Font sourced from: https://www.fontfabric.com/fonts/intro-script/ */
   font-family: 'IntroScript';
   src: url('fonts/IntroScript-Trial-Regular.woff') format('woff'), url('fonts/IntroScript-Trial-Regular.woff2') format('woff2');
   font-weight: normal;
@@ -8,6 +9,7 @@
 }
 
 @font-face {
+  /* Font files sourced from: https://www.dafont.com/carlo-melow-sans.font */
   font-family: 'Carlo Melow Sans';
   src: url('fonts/carlo-melow-sans.woff2') format('woff2');
   font-weight: normal;
@@ -36,10 +38,6 @@ body {
 
 .navbar {
   height: 20vh;
-  /* In case of fixed navbar
-  background-color: rgba(67, 97, 238, 0);
-  backdrop-filter: blur(3px) saturate(200%);
-  -webkit-backdrop-filter: blur(3px) saturate(200%); */
 }
 
 #navigation #logo {
@@ -122,7 +120,7 @@ body {
   transition: transform .5s;
 }
 
-.message-wrapper.slide {
+.message-wrapper.text-zoom {
   -moz-transform: scale(2);
   -ms-transform: scale(2);
   -o-transform: scale(2);
@@ -177,6 +175,7 @@ body {
 
 /* Footer/About */
 
+/* Glassmorphism effect adapted from: https://ui.glass/generator/ */
 footer {
   height: 30vh;
   background-color: rgba(247, 37, 133, 0);

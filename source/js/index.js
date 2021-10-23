@@ -1,3 +1,4 @@
+// List of supportive messages!
 var shoutouts = [
     "You’ll do your best work today",
     "Hey you! You’re doing great",
@@ -52,23 +53,34 @@ var shoutouts = [
     "Shoutout to everyone getting up early!"
 ];
 
+// Function to generate a random number
 function randGen() {
     return Math.floor(Math.random() * 51);
 }
 
+// Function to generate the shoutout message
 function generateShoutout() {
+    // Generate a random number
     var randNum = randGen();
+    // Use it to index the shoutouts list
     var shoutout = shoutouts[randNum];
+    // Target shoutout message element in the DOM
     var shoutoutContainer = document.querySelector('.message-wrapper')
 
-    shoutoutContainer.classList.add('slide');
+    // Add text-zoom CSS class to the shoutout message element
+    shoutoutContainer.classList.add('text-zoom');
+
+    // Change element content to the shoutout pulled from the list
     document.getElementById('shoutoutMessage').innerHTML = shoutout;
+
+    // Remove the text-zoom animation class again
     setTimeout(function(){
-        shoutoutContainer.classList.remove('slide')
+        shoutoutContainer.classList.remove('text-zoom')
     },100);
 };
 
 // Run functions when the page has loaded.
 window.addEventListener('load',function(){
+    // Call generateShoutout function when generate button is clicked
     document.getElementById('generateButton').addEventListener("click", generateShoutout);
 });
