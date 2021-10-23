@@ -39,23 +39,21 @@ var shoutouts = [
     "Treat yourself today—you deserve it!",
     "&#127926; you put your thang down, flip it and reverse it &#127926;",
     "&#127926; don’t stop believin’ &#127926;",
-    "&#127926; tonight’s the night we’re gonna make it happen &#127926;",
     "&#127926; I’ll be there for you &#127926;",
-    "&#127926; started from the bottom now the whole team here &#127926;",
+    "&#127926; started from the bottom now we're here &#127926;",
     "&#127926; today is where your book begins &#127926;",
     "You’re on a roll! &#129366;",
     "&#127926; you’re risin’ up, straight to to top &#127926;",
     "Believe you can and you’re halfway there &#129308;&#129307;",
     "Be proud of yourself for showing up everyday!",
     "You’re the rainbow in someone else’s cloud &#127752;",
-    "Take a break, rest, and recharge—you deserve it",
-    "Shoutout to everyone who still Googles HTML basics!",
-    "Shoutout to everyone getting up early!",
-    "Shoutout to everyone making shoutout generators!",
+    "Take a break and recharge—you deserve it",
+    "Shoutout to everyone Googling HTML basics!",
+    "Shoutout to everyone getting up early!"
 ];
 
 function randGen() {
-    return Math.floor(Math.random() * 53);
+    return Math.floor(Math.random() * 51);
 }
 
 function generateShoutout() {

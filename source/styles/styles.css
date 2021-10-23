@@ -96,20 +96,13 @@ body {
 
 /* Main Generator Section */
 
-/* #main-content {
-  background: url(../images/shoutout-gradient.svg) no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  text-align: center;
-} */
-
 #main-content {
   margin-top: 5rem;
   text-align: center;
-  height: 90vh;
+  height: 80vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 15%;
 }
 
 #generator-section,
@@ -166,7 +159,6 @@ body {
 }
 
 #generateButton:hover {
-  /* background-color: rgb(72, 149, 239); */
   opacity: 1;
   transform:scale(1.05);
 }
@@ -186,9 +178,11 @@ body {
 /* Footer/About */
 
 footer {
+  height: 30vh;
   background-color: rgba(247, 37, 133, 0);
   backdrop-filter: blur(3px) saturate(200%);
   -webkit-backdrop-filter: blur(3px) saturate(200%);
+  z-index: 9999;
 }
 
 #about-header,
@@ -223,7 +217,19 @@ footer {
 
 @media only screen and (min-width: 992px) {
   #navigation #logo {
-      margin-left: 5rem;
-      font-size: 5rem;
+    margin-left: 5rem;
+    font-size: 5rem;
+  }
+  .shoutout-container {
+    padding-top: 5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #generateButton {
+    margin-top: -10rem;
+  }
+  footer {
+    height: 25vh;
   }
 }
