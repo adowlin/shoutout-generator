@@ -22,10 +22,10 @@ Shoutout! is a site where users can generate wholesome, supportive shoutout mess
 
 ### Background Image:
 - Created using [Adobe Illustrator](https://www.adobe.com/products/illustrator.html):<br>
-    [<img src="source/images/shoutout-gradient.png" alt="site gradient background image" width="400"/>](/source/images/shoutout-gradient.png)
+    [<img src="source/images/shoutout-gradient.svg" alt="site gradient background image" width="400"/>](/source/images/shoutout-gradient.svg)
 
 ## Technologies Used
-### Tools
+### Tools:
 - [GitPod](https://www.gitpod.io/)
     - Used as the preferred IDE for development.
 - [Git](https://git-scm.com/)
@@ -41,7 +41,7 @@ Shoutout! is a site where users can generate wholesome, supportive shoutout mess
 - [Font Awesome](https://fontawesome.com/)
     - For the site's (non-emoji) icons.
 
-### Front-End Technologies
+### Front-End Technologies:
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
