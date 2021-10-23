@@ -1,4 +1,19 @@
+@font-face {
+  font-family: 'IntroScript';
+  src: url('fonts/IntroScript-Trial-Regular.woff') format('woff'), url('fonts/IntroScript-Trial-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Subjectivity';
+  src: url('fonts/Subjectivity-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
+  font-family: Subjectivity, serif;
   font-size: 10px;
   background: url(../images/shoutout-gradient.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -17,12 +32,43 @@ body {
   height: 15vh;
 }
 
+#navigation #logo {
+  font-family: IntroScript, sans-serif;
+  margin-left: 1rem;
+  /* font-family: IntroScript, sans-serif; */
+  font-size: 4rem;
+  /* color: rgb(247, 37, 133); */
+  text-shadow:
+        0.04rem 0 black,
+        0 0.04rem black,
+        -0.04rem 0 black,
+        0 -0.04rem black,
+        -0.04rem -0.04rem black,
+        -0.04rem 0.04rem black,
+        0.04rem -0.04rem black,
+        0.04rem 0.04rem black;
+}
+
 #navigation #logo,
+#navigation .nav-item,
+#navigation a {
+  color: rgb(247, 37, 133);
+  margin-top: 1rem;
+}
+
+#navModal .nav-item, 
+#navModal a {
+  color: rgb(76, 201, 240);
+}
+
 #navigation .nav-item,
 #navigation a,
 #navModal .nav-item, 
 #navModal a {
-    color: rgb(76, 201, 240);
+  /* color: rgb(76, 201, 240); */
+  text-align: left;
+  font-size: 2rem;
+  text-shadow: 0.03rem 0 black;
 }
 
 #navModal {
@@ -32,7 +78,7 @@ body {
 
 /* Glassmorphism effect adapted from: https://ui.glass/generator/ */
 #navModal>.modal-dialog>.modal-content {
-  background: rgba(72, 149, 239, 0.25);
+  background: rgba(72, 149, 239, 0.5);
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   border-radius: 12px;
@@ -49,4 +95,11 @@ body {
 #shoutout-message {
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  #navigation #logo {
+      margin-left: 5rem;
+      font-size: 5rem;
+  }
 }
