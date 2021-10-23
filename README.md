@@ -7,6 +7,7 @@ Shoutout! is a site where users can generate wholesome, supportive shoutout mess
 [<img src="/source/images/shoutout-mockup.png" alt="responsive site mockup">](https://adowlin.github.io/shoutout-generator/)
 
 ## Design
+
 ### Wireframe:
 - Wireframe created using [Balsamiq](https://balsamiq.com/):<br>
     [<img src="/source/images/shoutout-wireframe.png" alt="site wireframe" width="400"/>](/source/images/shoutout-wireframe.png)
@@ -49,3 +50,4 @@ Shoutout! is a site where users can generate wholesome, supportive shoutout mess
 ## Credits
 - Glassmorphism CSS effect used on footer adapted from: https://ui.glass/generator/
 - Emoji -> Favicon code found here: https://css-tricks.com/emojis-as-favicons/
+- Boilerplate adapted from: https://github.com/shesharpnl/hackathon-2021.vanilla-js.base-example
