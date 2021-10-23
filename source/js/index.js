@@ -55,7 +55,7 @@ var shoutouts = [
 ];
 
 function randGen() {
-    return Math.floor(Math.random() * 54);
+    return Math.floor(Math.random() * 53);
 }
 
 function generateShoutout() {
