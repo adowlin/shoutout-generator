@@ -191,27 +191,33 @@ footer {
   -webkit-backdrop-filter: blur(3px) saturate(200%);
 }
 
-.contact-links > a {
-  padding: 0.5rem;
-  margin-top: 0.5rem;
-  margin-right: auto;
+#about-header,
+#about-text,
+#about-text>a,
+.contact-links>.social-links a {
+  color: rgb(58, 12, 163);
+}
+
+#about-header {
+  font-size: 2rem;
+}
+
+#about-text {
+  font-size: 1rem;
 }
 
 .contact-links > ul > li {
   display: inline-block;
-  padding: 0.5rem;
-  font-size: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 2rem;
   margin-right: auto;
 }
 
-.social-links a {
-  color: rgb(242, 253, 255);
+#about-text>a:hover,
+.contact-links>.social-links a:hover {
+  color: rgb(76, 201, 240);
 }
-
-.social-links a:hover {
-  color: rgb(139, 230, 181);
-}
-
 
 /* Media Queries */
 
