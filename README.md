@@ -8,7 +8,7 @@ Shoutout! is a site where users can generate wholesome, supportive shoutout mess
 
 ## Design
 
-### Wireframe:
+### Wireframe:
 - Wireframe created using [Balsamiq](https://balsamiq.com/):<br>
     [<img src="/source/images/shoutout-wireframe.png" alt="site wireframe" width="400"/>](/source/images/shoutout-wireframe.png)
 
