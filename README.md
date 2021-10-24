@@ -49,5 +49,5 @@ Shoutout! is a site where users can generate wholesome, supportive shoutout mess
 
 ## Credits
 - Glassmorphism CSS effect used on footer adapted from: https://ui.glass/generator/
-- Emoji -> Favicon code found here: https://css-tricks.com/emojis-as-favicons/
+- Emoji favicon image sourced here: https://openmoji.org/library/#group=people-body&emoji=1F4AA
 - Boilerplate adapted from: https://github.com/shesharpnl/hackathon-2021.vanilla-js.base-example
