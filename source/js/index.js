@@ -65,7 +65,7 @@ function generateShoutout() {
     // Use it to index the shoutouts list
     var shoutout = shoutouts[randNum];
     // Target shoutout message element in the DOM
-    var shoutoutContainer = document.querySelector('.message-wrapper')
+    var shoutoutContainer = document.querySelector('.message-wrapper');
 
     // Add text-zoom CSS class to the shoutout message element
     shoutoutContainer.classList.add('text-zoom');
@@ -75,9 +75,9 @@ function generateShoutout() {
 
     // Remove the text-zoom animation class again
     setTimeout(function(){
-        shoutoutContainer.classList.remove('text-zoom')
+        shoutoutContainer.classList.remove('text-zoom');
     },100);
-};
+}
 
 // Run functions when the page has loaded.
 window.addEventListener('load',function(){
