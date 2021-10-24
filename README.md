@@ -2,7 +2,7 @@
 
 [View the deployed site here](https://adowlin.github.io/shoutout-generator/)
 
-Shoutout! is a site where users can generate wholesome, supportive shoutout messages - either for some personal encouragement, or to share a message of encouragement with someone else. This project was created as part of the [2021 SheSharp Hackathon](https://www.shesharp.co/2021-hackathon).<br>
+Shoutout! is a site where users can generate wholesome, supportive shoutout messages - either for some personal encouragement, or to share a message of encouragement with someone else. This project was created as part of the [2021 SheSharp & Troopl Hackathon](https://www.shesharp.co/2021-hackathon).<br>
 
 [<img src="/source/images/shoutout-mockup.png" alt="responsive site mockup">](https://adowlin.github.io/shoutout-generator/)
 
